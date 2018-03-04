@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Programistek.Cplus.While"
+             BackgroundImage="tlo.png" 
+             xmlns:forms="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             Padding="0,75,0,75">
+    <ScrollView>
+        <StackLayout>
+
+
+            <WebView Source="http://je33966.zut.edu.pl/Grafika%20Programistek/while2.gif"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     BackgroundColor="Transparent"
+                     WidthRequest="320"
+                     HeightRequest="256"/>
+
+            <Label x:Name="labelWhile"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="10"
+                   />
+            <Label x:Name="kodWhile"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="20,0,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

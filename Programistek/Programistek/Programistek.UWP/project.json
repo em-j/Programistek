@@ -1,0 +1,25 @@
+﻿{
+  "dependencies": {
+    "InTheHand.Forms": "1.0.2017.1214",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "UXDivers.GorillaPlayer.SDK": "1.2.0",
+    "Xam.Animations": "0.5.1",
+    "Xamarin.FFImageLoading.Forms": "2.3.2",
+    "Xamarin.FFImageLoading.Svg.Forms": "2.3.2",
+    "Xamarin.FFImageLoading.Transformations": "2.3.2",
+    "Xamarin.Forms": "2.5.0.122203",
+    "XamlAnimatedGif": "1.1.10",
+    "XamlBrewer.Uwp.AnimatedSplashScreen": "1.0.0"
+  },
+  "frameworks": {
+    "uap10.0.10586": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

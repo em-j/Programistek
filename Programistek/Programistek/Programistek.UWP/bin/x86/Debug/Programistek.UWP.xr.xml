@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Xamarin.Forms.Platform.UWP.WindowsPage">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Programistek.UWP.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="XamlAnimatedGif.AnimationBehavior">
+      <RootMethod Name="GetSourceUri" />
+      <RootMethod Name="SetSourceUri" />
+      <RootMethod Name="GetRepeatBehavior" />
+      <RootMethod Name="SetRepeatBehavior" />
+    </RootType>
+    <RootType FullName="Programistek.UWP.SplashPage" />
+  </Roots.RootTypes>
+</Roots>

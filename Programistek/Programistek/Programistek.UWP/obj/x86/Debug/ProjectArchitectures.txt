@@ -1,0 +1,2 @@
+C:\Users\Em\source\repos\Programistek\Programistek\Programistek.UWP\Programistek.UWP.csproj;x86
+C:\Users\Em\source\repos\Programistek\Programistek\Programistek\Programistek.csproj;neutral

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Programistek"
+             x:Class="Programistek.MainPage"
+             Padding="0,75,0,75"
+             BackgroundImage="tlo.png" 
+             >
+    <AbsoluteLayout>
+        <StackLayout>
+            <Image Source="tytul.png" 
+                   HorizontalOptions="FillAndExpand"
+                   Scale="1"
+                   VerticalOptions="Start"
+                   />
+
+            <WebView Source="http://je33966.zut.edu.pl/Grafika%20Programistek/menu_dragon200x200.gif"
+                     HorizontalOptions="EndAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     WidthRequest="200"
+                     Margin="0,100,30,0"
+                     BackgroundColor="Transparent"
+                     HeightRequest="200"/>
+        </StackLayout>
+        
+        <ScrollView>
+            <StackLayout Padding="30,200,0,0" Spacing="5" x:Name="layout" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+
+                <Button Text="C++" 
+                    Clicked="OpenCplus"
+                    BackgroundColor="DarkTurquoise"
+                    />
+                <Button Text="HTML" 
+                    BackgroundColor="DarkTurquoise"/>
+                <Button Text="Python"
+                    BackgroundColor="DarkTurquoise"/>
+                <Button Text="Java"
+                    BackgroundColor="DarkTurquoise"/>
+
+            </StackLayout>
+        </ScrollView>
+
+    </AbsoluteLayout>
+    
+</ContentPage>
